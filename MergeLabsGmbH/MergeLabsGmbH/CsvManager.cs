@@ -24,7 +24,6 @@ namespace MergeLabsGmbH
             StringBuilder sb = new StringBuilder();
             string[] rows = S.Split(CsvNewLineCharacter);
             sb.Append(rows[0]); // preserve header row
-            sb.Append(CsvNewLineCharacter);
 
             for (int i = 1; i < rows.Length; i++)
             {
@@ -41,9 +40,10 @@ namespace MergeLabsGmbH
 
                 if (!nullFound)
                 {
-                    sb.Append(rows[i]);
                     sb.Append(CsvNewLineCharacter);
+                    sb.Append(rows[i]);
                 }
+
             }
 
             res = sb.ToString();

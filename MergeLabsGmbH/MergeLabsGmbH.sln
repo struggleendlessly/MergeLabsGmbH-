@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34302.71
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeLabsGmbH", "MergeLabsGmbH\MergeLabsGmbH.csproj", "{1E0A0E73-AF2D-4E51-85B0-DFCDC3E5D3F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeLabsGmbHTests1", "MergeLabsGmbHTests1\MergeLabsGmbHTests1.csproj", "{8D67D838-4A34-454F-B80C-EC30C84A2AB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1E0A0E73-AF2D-4E51-85B0-DFCDC3E5D3F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E0A0E73-AF2D-4E51-85B0-DFCDC3E5D3F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E0A0E73-AF2D-4E51-85B0-DFCDC3E5D3F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D67D838-4A34-454F-B80C-EC30C84A2AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D67D838-4A34-454F-B80C-EC30C84A2AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D67D838-4A34-454F-B80C-EC30C84A2AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D67D838-4A34-454F-B80C-EC30C84A2AB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
