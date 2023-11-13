@@ -22,6 +22,15 @@ namespace MergeLabsGmbH.Tests
             string results = CsvManager.SimpleTransformCsv(input);
             Assert.AreEqual(expected, results);
         }
+
+        [TestMethod]
+        [DynamicData(nameof(TestDataSet.GenerateBasicDataSet), typeof(TestDataSet), DynamicDataSourceType.Method)]
+        public void TestTransformCsvMethod(string display_name, string input, string expected)
+        {
+            TestContext.WriteLine($" > {display_name}");
+            string results = CsvManager.TransformCsv(input);
+            Assert.AreEqual(expected, results);
+        }
     }
 
     public static class TestDataSet
